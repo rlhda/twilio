@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Inactive</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgb(5, 5, 47);
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        .message {
+            font-size: 1.5em;
+            line-height: 1.5;
+        }
+
+        .icon-container {
+            position: absolute;
+            bottom: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .icon-container svg {
+            width: 200px;
+            height: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="message">
+            This session is no longer active<br><br>
+            Please refresh the page and log out the previous Twilio
+        </div>
+    </div>
+    <div class="icon-container">
+        <div data-testid="Twilio-Icon" class="Twilio-Icon Twilio-Icon-FlexBanner Twilio-Flex-Logo css-1l8agos">
+            <svg width="1em" height="1em" viewBox="0 0 148 32" class="Twilio-Icon-Content">
+                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <path
+                        d="M16 0c8.853 0 16 7.147 16 16s-7.147 16-16 16S0 24.853 0 16 7.147 0 16 0zm0 1C7.7 1 1 7.7 1 16s6.7 15 15 15 15-6.7 15-15S24.3 1 16 1zm-4.328 14.431l.057.047 3.208 3.21a.37.37 0 01.101.189l.007.072v3.39a.37.37 0 01-.575.308l-.057-.047-3.208-3.209a.37.37 0 01-.101-.189l-.007-.072v-3.39a.37.37 0 01.575-.309zM100.137 11c2.673 0 4.5 2.035 4.5 4.987S102.784 21 100.11 21s-4.5-2.048-4.5-4.987c0-2.965 1.853-5.013 4.526-5.013zm41.114.106l2.713 3.963 2.646-3.896h1.099l-3.176 4.6L148 20.682l-1.006.213-3.043-4.389-2.938 4.309h-1.099l3.468-5.013-3.124-4.482.993-.213zm-81.746-.026l2.474 8.178 2.74-8.085h1.019l2.779 8.085 2.435-8.085h1.032l-3.017 9.68h-.874l-2.885-8.284-2.871 8.285h-.847l-2.991-9.548 1.006-.226zm-4.16.093l.145.93h-3.282v8.71h-.992v-8.71H48v-.93h7.345zm21.633 0v9.64h-1.006v-9.64h1.006zm5.668 0v8.71h3.838l.146.93h-4.976v-9.64h.992zm8.752 0v9.64h-1.005v-9.64h1.005zm27.633 0v.93h-4.01v3.365h3.203l.145.918h-3.348v4.428h-.992v-9.641h5.002zm4.795 0v8.71h3.838l.145.93h-4.975v-9.64h.992zm12.841 0v.93h-4.195v3.206h3.322l.146.93h-3.468v3.657h4.341v.918h-5.333v-9.641h5.187zm-36.556.731c-2.091 0-3.467 1.65-3.467 4.083 0 2.46 1.39 4.095 3.48 4.095 2.104 0 3.467-1.635 3.467-4.082s-1.376-4.096-3.48-4.096zM19.389 10.84a.37.37 0 01.205.062l.056.046 3.209 3.21a.37.37 0 01-.189.625l-.073.006h-7.552a.362.362 0 00-.072.718l.072.008h2.453a.37.37 0 01.205.062l.056.046 3.209 3.21a.37.37 0 01-.189.624l-.073.007h-3.784a.37.37 0 01-.205-.062l-.057-.046-5.455-5.446a.37.37 0 01-.101-.189l-.007-.073v-2.435c0-.18.128-.33.298-.366l.075-.007h7.919z"
+                        fill="#FFF"></path>
+                </g>
+            </svg>
+        </div>
+    </div>
+</body>
+
+</html>
